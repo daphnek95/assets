@@ -261,13 +261,7 @@ body {
     background-color: #333C5B;
     box-shadow: rgba(0,0,0,0.5) 0 0 1rem;
     color: white;
-    left: 50%;
     padding: 1.125rem 1.25rem;
-    position: relative;
-    top: 40%;
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
   }
 
     .about-wrapper h1 { margin-top: .625rem; }
@@ -900,9 +894,6 @@ img {
 }
 
 @media all and ( min-width: 700px ) {
-  .about-wrapper {top: 50%;}
-
-
   .insta-highlight { width: 35%; }
 
 
@@ -965,6 +956,16 @@ img {
   }
 
     .c-drpdwn__btn:hover { background-color: transparent; }
+
+
+  .about-wrapper {
+    left: 50%;
+    position: relative;
+    top: 40%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 
   .artwork {
