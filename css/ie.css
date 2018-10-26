@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* **************
+  FOR IE ONLY
+************** */
+
+.c-wrapper.ie {
+  display: block;
+}
+
+.lis-itm--drpdwn.ie {
+  display: inline-block;
+  padding: .35rem 0;
+}
+
+.nav--hvy.ie {
+  padding-left: 1.125rem;
+}
+
+.nav--hvy__row-right.ie {
+  padding-left: 1.25rem;
+}
+
+.two-img-grid.ie {
+  display: inline-block;
+  text-align: center;
+}
+
+  .two-img-grid__left-col.ie {
+    width: 50%;
+  }
+
+    .two-img-grid__left-col.ie img {
+      width: 48%;
+    }
+
+  .two-img-grid__right-col.ie {
+    width: 50%;
+  }
+
+    .two-img-grid__right-col.ie img {
+      width: 48%;
+    }
+
+/* **** #Media-queries **** */
+
+@media all and ( min-width: 760px ) {
+  .lis-itm--drpdwn {
+    display: inline-block;
+  }
+
+}
+
+@media all and ( min-width: 960px ) {
+  .c-wrapper--left.ie {
+    width: auto;
+  }
+
+  .c-wrapper--right.ie {
+    width: auto;
+  }
+
+}
+
+@media all and ( min-width: 1000px ) {
+  .artwork_project.ie {
+    width: 33%;
+  }
+
+}
