@@ -185,6 +185,11 @@ p, a, li { font-family: 'Lato', sans-serif; }
   .active--white-bg--orange:hover { color: #BD5342; }
 
 
+/* **** #external-links **** */
+
+.external-link:hover { cursor: alias; }
+
+
 /*
 ***********************
 ******** #Body ********
@@ -217,34 +222,17 @@ body {
 #artwork { background-image: url("https://daphnek95.github.io/assets/artwork-background.jpeg"); }
 
 /* **** PROJECT BANNERS **** */
-#animated-mythologies { background-image: url("https://daphnek95.github.io/assets/animated-mythologies/animated-mythologies-banner.jpg"); }
-#atk-creator-of-worlds { background-image: url("https://daphnek95.github.io/assets/atk-creator-of-worlds/atk-creator-of-worlds-banner.jpg"); }
-#carnival-interactive-game { background-image: url("https://daphnek95.github.io/assets/carnival-interactive-game/carnival-interactive-game-banner.jpg"); }
-#cuddlepants { background-image: url("https://daphnek95.github.io/assets/cuddlepants/cuddlepants-banner.jpg"); }
-#enamel-pins { background-image: url("https://daphnek95.github.io/assets/enamel-pins/enamel-pins-banner.jpg"); }
-#graduation-cap { background-image: url("https://daphnek95.github.io/assets/graduation-cap/graduation-cap-banner.jpg"); }
+#animated-mythologies { background-image: url("https://daphnek95.github.io/assets/animated-mythologies/animated-mythologies-banner.jpeg"); }
+#cuddlepants { background-image: url("https://daphnek95.github.io/assets/cuddlepants/cuddlepants-banner.jpeg"); }
+#product-design { background-image: url("https://daphnek95.github.io/assets/product-design/product-design-banner.jpg"); }
+#graduation-cap { background-image: url("https://daphnek95.github.io/assets/graduation-cap/graduation-cap-banner.jpeg"); }
 #graphic-collage { background-image: url("https://daphnek95.github.io/assets/graphic-collage/graphic-collage-banner.jpeg"); }
 #h2orca { background-image: url("https://daphnek95.github.io/assets/h2orca/h2orca-banner.jpg"); }
-#haunted-animation { background-image: url("https://daphnek95.github.io/assets/haunted-animation/haunted-animation-banner.jpg"); }
 #hayley-cleaver-sp { background-image: url("https://daphnek95.github.io/assets/hayley-cleaver-sp/hc-sp-banner.jpg"); }
-#immersion-arcade { background-image: url("https://daphnek95.github.io/assets/immersion-arcade/immersion-arcade-banner.jpg"); }
-#impossible-trail { background-image: url("https://daphnek95.github.io/assets/impossible-trail/impossible-trail-banner.jpg"); }
-#isu-photography { background-image: url("https://daphnek95.github.io/assets/isu-photography/isu-photography-banner.jpg"); }
-#isu-web { background-image: url("https://daphnek95.github.io/assets/isu-web/isu-web-banner.jpg"); }
-#javascript-resume { background-image: url("https://daphnek95.github.io/assets/javascript-resume/javascript-resume-banner.jpg"); }
-#makayla-ps { background-image: url("https://daphnek95.github.io/assets/makayla-ps/makayla-ps-banner.jpg"); }
-#nchs-re { background-image: url("https://daphnek95.github.io/assets/nchs-re/nchs-re-banner.jpeg"); }
 #nicholas-alyssa-es { background-image: url("https://daphnek95.github.io/assets/nicholas-alyssa-es/na-es-banner.jpeg"); }
-#origins-unknown { background-image: url("https://daphnek95.github.io/assets/origins-unknown/origins-unknown-banner.jpg"); }
 #paper-planes { background-image: url("https://daphnek95.github.io/assets/paper-planes/paper-planes-banner.jpg"); }
-#product-design-3d { background-image: url("https://daphnek95.github.io/assets/3D-product-design/3d-product-design-banner.jpg"); }
-#raider-bp { background-image: url("https://daphnek95.github.io/assets/raider-bp/raider-bp-banner.jpeg"); }
 #she-kills-monsters { background-image: url("https://daphnek95.github.io/assets/she-kills-monsters/she-kills-monsters-banner.jpg"); }
-#shelter-dash { background-image: url("https://daphnek95.github.io/assets/shelter-dash/shelter-dash-banner.jpg"); }
-#tetris-draw { background-image: url("https://daphnek95.github.io/assets/tetris-draw/tetris-draw-banner.jpg"); }
-#upb { background-image: url("https://daphnek95.github.io/assets/upb/upb-banner.jpg"); }
-#water-projection { background-image: url("https://daphnek95.github.io/assets/water-projection/water-projection-banner.jpg"); }
-#windy-city-wieners { background-image: url("https://daphnek95.github.io/assets/windy-city-wieners/windy-city-wieners-banner.jpg"); }
+#upb { background-image: url("https://daphnek95.github.io/assets/upb/upb-banner.jpeg"); }
 #youtube-branding { background-image: url("https://daphnek95.github.io/assets/youtube-branding/youtube-branding-banner.jpg"); }
 
 
@@ -802,7 +790,6 @@ img {
 
     .artwork_project {
       align-self: center;
-      display: none;
       justify-self: center;
       padding: 1.125rem;
       text-align: center;
