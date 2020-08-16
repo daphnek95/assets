@@ -130,6 +130,7 @@ p, a, li { font-family: 'Lato', sans-serif; }
   .link-white-bg--blue:hover {
     color: #333C5B;
     text-decoration: underline;
+    cursor: pointer !important;
   }
 
 .link-white-bg--orange {
@@ -143,6 +144,7 @@ p, a, li { font-family: 'Lato', sans-serif; }
   .link-white-bg--orange:hover {
     color: #753329;
     text-decoration: underline;
+    cursor: pointer !important;
   }
 
 .link-blue-bg {
@@ -156,6 +158,7 @@ p, a, li { font-family: 'Lato', sans-serif; }
   .link-blue-bg:hover {
     color: #FFFFFF;
     text-decoration: underline;
+    cursor: pointer !important;
   }
 
 .link-orange-bg {
@@ -169,6 +172,7 @@ p, a, li { font-family: 'Lato', sans-serif; }
   .link-orange-bg:hover {
     color: #FFFFFF;
     text-decoration: underline;
+    cursor: pointer !important;
   }
 
 
@@ -176,18 +180,13 @@ p, a, li { font-family: 'Lato', sans-serif; }
 
 .active { text-transform: uppercase; }
 
-  .active:hover { text-decoration: none; }
+  .active:hover { text-decoration: none; cursor: pointer !important; }
 
-  .active--blue-bg:hover { color: #D6DBE6; }
+  .active--blue-bg:hover { color: #D6DBE6; cursor: pointer !important; }
 
-  .active--orange-bg:hover { color: #FDDBC9; }
+  .active--orange-bg:hover { color: #FDDBC9; cursor: pointer !important; }
 
-  .active--white-bg--orange:hover { color: #BD5342; }
-
-
-/* **** #external-links **** */
-
-.external-link:hover { cursor: alias; }
+  .active--white-bg--orange:hover { color: #BD5342; cursor: pointer !important; }
 
 
 /*
@@ -220,19 +219,6 @@ body {
 #home { background-image: url("https://daphnek95.github.io/assets/home-background.jpeg"); }
 
 #artwork { background-image: url("https://daphnek95.github.io/assets/artwork-background.jpeg"); }
-
-/* **** PROJECT BANNERS **** */
-#animated-mythologies { background-image: url("https://daphnek95.github.io/assets/animated-mythologies/animated-mythologies-banner.jpeg"); }
-#cuddlepants { background-image: url("https://daphnek95.github.io/assets/cuddlepants/cuddlepants-banner.jpeg"); }
-#product-design { background-image: url("https://daphnek95.github.io/assets/product-design/product-design-banner.jpeg"); }
-#web-design { background-image: url("https://daphnek95.github.io/assets/web-design/web-design-banner.jpeg"); }
-#graphic-collage { background-image: url("https://daphnek95.github.io/assets/graphic-collage/graphic-collage-banner.jpeg"); }
-#hayley-cleaver-sp { background-image: url("https://daphnek95.github.io/assets/hayley-cleaver-sp/hc-sp-banner.jpeg"); }
-#nicholas-alyssa-es { background-image: url("https://daphnek95.github.io/assets/nicholas-alyssa-es/na-es-banner.jpeg"); }
-#paper-planes { background-image: url("https://daphnek95.github.io/assets/paper-planes/paper-planes-banner.jpeg"); }
-#event-ad { background-image: url("https://daphnek95.github.io/assets/event-ad/upb-banner.jpeg"); }
-#youtube-branding { background-image: url("https://daphnek95.github.io/assets/youtube-branding/youtube-branding-banner.jpeg"); }
-
 
 #about {
   background-image: url("https://daphnek95.github.io/assets/about-background.jpeg");
@@ -718,17 +704,27 @@ img {
     border: 2px solid #333C5B;
   }
 
+.no-button {
+  background: none;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.15rem;
+}
+
 
 /* **** #filter-art-gallery **** */
 
 /* ---- layout: flexbox ---- */
+
+
+
 
 /* .artwork {} */
 
   /* .artwork_wrapper {} */
 
 
-  .artwork_btn {
+   .artwork_btn {
     background-color: transparent;
     border: none;
     color: white; 
@@ -749,7 +745,7 @@ img {
 
   .artwork_btn-active {
     background-color: #333C5B; 
-  }
+  } 
 
 
   .artwork_project {
@@ -788,6 +784,7 @@ img {
 
     .artwork_project {
       align-self: center;
+      display: none;
       justify-self: center;
       padding: 1.125rem;
       text-align: center;
@@ -840,6 +837,48 @@ img {
       width: unset;
     }
   
+}
+
+
+/* **** #modals **** */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #D6DBE6;
+  background-image: url("https://daphnek95.github.io/assets/mirrored-squares.png");
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
