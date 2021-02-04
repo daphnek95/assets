@@ -585,6 +585,7 @@ img {
 .banner-nav {
   color: white;
   width: 100%;
+  padding-top: .625rem;
 }
 
   .banner-nav ul {
@@ -888,7 +889,10 @@ img {
   .hero-space h1 { font-size: 4rem; }
 */
 
-  .banner-nav h1 { font-size: 3rem; }
+  .banner-nav h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
 
   @supports (display: grid) {
     .artwork_wrapper {
