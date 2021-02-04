@@ -211,10 +211,6 @@ body {
 }
 
 
-#home { background-image: url("https://daphnek95.github.io/assets/home-background.jpeg"); }
-
-#artwork { background-image: url("https://daphnek95.github.io/assets/artwork-background.jpeg"); }
-
 #about {
   background-image: url("https://daphnek95.github.io/assets/about-background.jpeg");
   background-position: center;
