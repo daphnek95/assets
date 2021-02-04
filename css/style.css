@@ -206,12 +206,7 @@ body {
 }
 
 .banner {
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgba(0,0,0,0.5) 1px 0 3px;
-  height: 100%;
+  background-color: #BD5342;
   text-align: center;
 }
 
@@ -593,21 +588,13 @@ img {
 
 .banner-nav {
   color: white;
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  text-shadow: rgba(0,0,0,0.5) 1px 0 3px;
-  -moz-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  top: 45%;
-  transform: translate(-50%, -50%);
   width: 100%;
 }
 
   .banner-nav ul {
-    background-color: rgba(0,0,0,0.5);
     list-style-type: none;
     padding: .625rem;
+    margin: 0;
   }
 
   .banner-nav ul li {
@@ -905,7 +892,7 @@ img {
   .hero-space h1 { font-size: 4rem; }
 */
 
-  .banner-nav h1 { font-size: 4rem; }
+  .banner-nav h1 { font-size: 3rem; }
 
   @supports (display: grid) {
     .artwork_wrapper {
@@ -1067,7 +1054,10 @@ img {
 }
 
 @media all and ( min-width: 1000px ) {
-  .banner-nav h1 { font-size: 5rem; }
+  .banner-nav h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
 
 
   .artwork_project {
